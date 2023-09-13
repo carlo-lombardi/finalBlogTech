@@ -18,10 +18,10 @@ export const LanguageSelector = () => {
       <div className="hidden md:block">
         <LanguageSelectorDesktop displayName={displayName} localeName={localeName} />
       </div>
-
+      {/* 
       <div className="block md:hidden">
         <LanguageSelectorMobile displayName={displayName} localeName={localeName} />
-      </div>
+      </div> */}
     </>
   ) : null;
 };
